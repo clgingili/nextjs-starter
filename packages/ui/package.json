@@ -1,0 +1,26 @@
+{
+	"name": "@agentable/ui",
+	"version": "1.0.0",
+	"exports": {
+		".": "./components/index.ts"
+	},
+	"peerDependencies": {
+		"react": ">=16.9.0",
+		"react-dom": ">=16.9.0",
+		"react-hook-form": ">=7.0.0"
+	},
+	"dependencies": {
+		"@agentable/utils": "workspace:*",
+		"@radix-ui/react-label": "^2.1.0",
+		"@radix-ui/react-slot": "^1.1.0",
+		"class-variance-authority": "^0.7.0",
+		"lucide-react": "^0.454.0",
+		"react-hook-form": "^7.53.1",
+		"tailwind-variants": "^0.2.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.12",
+		"@types/react-dom": "^18.3.1",
+		"react": "^18.3.1"
+	}
+}
